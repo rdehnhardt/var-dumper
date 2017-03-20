@@ -14,4 +14,8 @@ composer require rdehnhardt/var-dumper
 
 ```php
 dd($yourVar);
+
+OR
+
+dd($yourVar1, $yourVar2, .., $yourVarN);
 ```
