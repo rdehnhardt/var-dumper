@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "symfony/var-dumper": "3.3.*"
+    "symfony/var-dumper": "~3.3"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.5",
