@@ -7,7 +7,7 @@ This package enable dd() function for projects without laravel.
 Run the following command to get the latest version package
 
 ```
-composer require rdehnhardt/var-dumper
+composer require rdehnhardt/var-dumper --dev
 ```
 
 ## Usage
