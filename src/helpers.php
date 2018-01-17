@@ -3,6 +3,8 @@
 if (!function_exists('dd')) {
     function dd()
     {
+        http_response_code(500);
+        
         array_map(function ($x) {
             (new Rdehnhardt\Debug\Dumper)->dump($x);
         }, func_get_args());
