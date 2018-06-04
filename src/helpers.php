@@ -12,8 +12,8 @@ if (!function_exists('dd')) {
     }
 }
 
-if (!function_exists('d')) {
-    function d()
+if (!function_exists('dump')) {
+    function dump()
     {
         array_map(function ($x) {
             (new Rdehnhardt\Debug\Dumper)->dump($x);
