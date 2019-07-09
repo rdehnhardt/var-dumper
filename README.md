@@ -1,6 +1,6 @@
 # VAR DUMPER
 
-This package enable dd() function for projects without laravel.
+This package enable dd() function for projects without laravel. Also d() and dump() function when is not necessary stop running the code.
 
 ## Installation
 
